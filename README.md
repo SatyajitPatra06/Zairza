@@ -1,1 +1,1 @@
-# Made asurvey form for zairza web dev task.
+# Made a survey form for zairza web dev task.
