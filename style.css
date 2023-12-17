@@ -1,0 +1,74 @@
+html {
+    color-scheme: dark light;
+}
+
+body {
+    background-color: #734F96;
+    font-family: Verdana;
+    text-align: center;
+}
+
+form {
+    background-color: #0f0e0e;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 100px rgba(0, 0, 0, 1);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color: #734F96;
+    border: 1px solid #bd80ca;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 21px;
+    width: 30%; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+    form {
+        padding: 20px; 
+        width: 80%;
+    }
+
+    .form-control input,
+    .form-control select,
+    .form-control textarea {
+        width: 95%;
+    }
+
+    button {
+        width: 30%; 
+    }
+}
